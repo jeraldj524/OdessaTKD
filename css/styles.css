@@ -2,13 +2,18 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
-h1, h2, h3 {
-    font-family: "Lobster", cursive;
+h1, h2, h3, h4 {
+    font-family: "Arial Black", cursive;;
 }
 
-h2 {
-    color: #3046C5;
+h1, h2 {
+    color:red;
 }
+
+h3{
+    color: black;
+}
+
 
 header h2 {
     color: #CEC8FF;
@@ -34,4 +39,5 @@ footer {
 .navbar{
     background-color:black;
 }
+.h4
 
