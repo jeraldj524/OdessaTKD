@@ -3,31 +3,19 @@ body {
 }
 
 h1, h2, h3, h4 {
-    font-family: "Arial Black", cursive;;
-}
-
-h1, h2 {
-    color:red;
-}
-
-h3{
-    color: black;
-}
-
-
-header h2 {
-    color: #CEC8FF;
+    font-family: "Arial Black", cursive;
+    filter: drop-shadow(0px 0px 1px grey);
 }
 
 footer {
-    background-image: linear-gradient(#CEC8FF, white);
+    background-image: linear-gradient(to right, red, black);
     padding: 20px 0;
 }
 
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, black, red);
+    background-image: linear-gradient(to right, red, black);
     color: white;
 }
 
@@ -37,7 +25,34 @@ footer {
     min-height: 200px;
 }
 .navbar{
-    background-color:black;
-}
-.h4
+    background-color: black;
+    filter: drop-shadow(0px 0px 1px black);
 
+    
+    
+}
+li:hover {
+    background-image: linear-gradient(to right, black, rgba(255, 0, 0, 0.493));
+    border-radius: 7px;
+    filter: drop-shadow(0px 0px 8px rgba(255, 0, 0, 0.575));
+  }
+
+.img{
+    filter: drop-shadow(0 0 0.90rem black);
+}
+
+.action-box{
+    background-image: linear-gradient(to bottom right, rgba(165, 10, 10, 0.493),red);    
+    color: black; 
+    font-family: "Arial Black";
+    border-radius: 7px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0px 5px;
+}
+card {
+    background-image: linear-gradient(to right, black, rgba(255, 0, 0, 0.493));
+
+}
