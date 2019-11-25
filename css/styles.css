@@ -68,16 +68,13 @@ card {
     border-color: black;
 }
 
-.bg {
-    /* The image used */
-    background-image: url("img/OdessaLogo2.jpg");
-  
-    /* Full height */
-    height: 100%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+.transition{
+    background-image: linear-gradient(to right, #b38d97, white);
 
+}
+.shadow{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #2b0c0c;
+
+}
