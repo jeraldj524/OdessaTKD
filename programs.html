@@ -45,7 +45,7 @@
                             style="width:auto;height:150px;filter: drop-shadow(0px 0px 8px black);"></a>
                 </div>
                 <div class="col-sm-3">
-                    <a href="free.html" class="btn btn-odessaTkd pull-right shadow">Learn More about Our Free
+                    <a href="free.html" class="btn btn-odessaTkd pull-right shadow" data-toggle="tooltip" title="Or Call (432) 260-9370">Learn More about Our Free
                         Classes!!!</a>
                 </div>
             </div>
@@ -79,13 +79,14 @@
                 <div class="col-12">
                     <div class="card shadow">
                         <div class="card-header btn-odessaTkdWhite text-black">
-                            <h3>Our Programs</h3>
+                            <h3>Our Programs </h3>
+                            <p>(Click program name for details)</p>
                         </div>
                         <div id="accordion">
                             <div class="card">
                                 <div role="tab" class="card-header transition">
                                     <h4>
-                                        <a data-toggle="collapse" data-target="#beginner">Kids Beginner Program, <small>Ages 4 and up</small></a>
+                                        <a data-toggle="collapse" data-target="#beginner" >Kids Beginner Program, <small>Ages 4 and up</small></a>
                                     </h4>
                                     <div class="collapse" id="beginner" data-parent="#accordion">
                                         <div class="card-body">
@@ -99,7 +100,7 @@
                                                 </div>
                                                 <div class="col">
                                                     <ul>
-                                                        <li>Age</li>
+                                                        <li>Age Group</li>
                                                         <li>What will they learn?</li>
                                                         <li>When will they advance?</li>
                                                         <li>Class Schedule?</li>
@@ -139,8 +140,7 @@
                                     <div class="card">
                                         <div role="tab" class="card-header transition">
                                             <h4>
-                                                <a data-toggle="collapse" data-target="#advance">Kids Advance Class
-                                                    <small>From ___ Belt to ___ Belt</small></a>
+                                                <a data-toggle="collapse" data-target="#advance">Kids Advance Class, <small>From ___ Belt to ___ Belt</small></a>
                                             </h4>
                                             <div class="collapse " id="advance" data-parent="#accordion">
                                                 <div class="card-body">
@@ -249,10 +249,15 @@
         </div>
         </div>
     </footer>
+</body>
+
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
-</body>
+    <script>
+        $(function(){
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
 
 </html>

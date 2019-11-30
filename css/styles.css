@@ -85,3 +85,8 @@ card {
     border-top: none;
     padding: 10px;
 }
+
+.carousel-img{
+    max-width: 300px;
+    max-height:auto;
+}

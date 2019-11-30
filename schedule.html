@@ -45,8 +45,8 @@
                             <a href="index.html"><img src="img/img/OdessaTKDwhite.svg" class="img-fluid" style="width:auto;height:150px;filter: drop-shadow(0px 0px 8px black);"></a>
                         </div>
                         <div class="col-sm-3">
-                                <a href="free.html" class="btn btn-odessaTkd pull-right shadow">Learn More about Our Free Classes!!!</a>
-                            </div>
+                            <a href="free.html" class="btn btn-odessaTkd pull-right shadow" data-toggle="tooltip" title="Or Call (432) 260-9370">Learn More about Our Free
+                                Classes!!!</a>                            </div>
                     </div>
                 </div>
             </header>
@@ -109,10 +109,15 @@
                </div>
             </div>
         </footer>
+    </body>
+
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src = "node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
-</body>
+    <script>
+        $(function(){
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
 
 </html>
